@@ -2,7 +2,7 @@
     "Changes": [
         {
             "Action": "Load",
-            "Target": "Characters/7A.Skitty_Normal, Characters/7A.Skitty_Shiny, Portraits/7A.Skitty_Normal, Portraits/7A.Skitty_Shiny, Objects/CritterCapsules",
+            "Target": "Characters/7A.Skitty_Normal, Characters/7A.Skitty_Shiny, Portraits/7A.Skitty_Normal, Portraits/7A.Skitty_Shiny, Objects/CritterCapsules, Objects/InvalidCapsule",
             "FromFile": "Assets/{{TargetPathOnly}}/{{TargetWithoutPath}}.png"
         },
 		{

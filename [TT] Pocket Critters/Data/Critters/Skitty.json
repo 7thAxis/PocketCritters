@@ -6,70 +6,69 @@
         "Target": "mushymato.TrinketTinker/Tinker",
         "Entries": {
             "{{ModId}}_SkittyCompanion": {
-            "Variants": [
-                {
-                    "Texture": "Characters/7A.Skitty_{{Force Shiny}}",
-                    "Portrait": "Portraits/7A.Skitty_{{Force Shiny}}",
-                    "Name": "{{Critter Nickname}}",
-                    "Width": 32,
-                    "Height": 32,
-                    "ShadowScale": 0
-                }
-            ],
-            "Chatter": {
-                "Skitty_Random": {
-                    "Lines": [
-                        "Skit! Skitty skit!",
-                        "Mew mew mew?",
-                        "*Purr*",
-                        "Mew mew!",
-                        "Meeoww!",
-                        "Skitty skit?",
-                        "Meeaah!"
-                    ],
-                    //"Condition": "TRUE",
-                    //"Priority": 0
-                },
-            },
-            "Motion": {
-                "MotionClass": "Lerp",
-                "DirectionMode": "DRUL",
-                "HideDuringEvents": "{{Hide During Events}}",
-                "FrameLength": 4,
-                "Anchors": [ { "Mode": "Forage", "Range": 320 } ],
-                "AnimClips": {
-                    
-                    "Idle.1": { "FrameStart": 16, "FrameLength": 2, "Interval": 300 },
-                    "Idle.2": { "FrameStart": 18, "FrameLength": 2, "Interval": 300 },
-                    "Idle.3": { "FrameStart": 20, "FrameLength": 2, "Interval": 300 },
-                    "Idle.4": { "FrameStart": 22, "FrameLength": 2, "Interval": 300 },
-
-                    "Swim.1": { "FrameStart": 28, "FrameLength": 2, "Interval": 300 },
-                    "Swim.2": { "FrameStart": 24, "FrameLength": 2, "Interval": 300 },
-                    "Swim.3": { "FrameStart": 30, "FrameLength": 2, "Interval": 300 },
-                    "Swim.4": { "FrameStart": 26, "FrameLength": 2, "Interval": 300 },
-                    "Howl": { "FrameStart": 32, "FrameLength": 9, "Interval": 200, "PauseMovement": true }
-                },
-
-                "Args": { "Min": 64, "Rate": 300, "MoveSync": true }
-            },
-            "Abilities": [
-                [
+                "Variants": [
                     {
-                        "AbilityClass": "Chatter",
-                        "Proc": "Interact",
-                        "Args": { "ChatterPrefix": "Skitty" },
-                        "ProcSound": { "CueName": "{{ModID}}_SkittyCry" }
-                    },
-                    {
-                        "AbilityClass": "HarvestForage",
-                        "Proc": "Timer",
-                        "ProcTimer": 300,
-                        "ProcSound": { "CueName": "{{ModID}}_SkittyCry" },
-                        "Args": { "Range": 1 }
+                        "Texture": "Characters/7A.Skitty_{{Force Shiny}}",
+                        "Portrait": "Portraits/7A.Skitty_{{Force Shiny}}",
+                        "Name": "{{Critter Nickname}}",
+                        "Width": 32, "Height": 32,
+                        "ShadowScale": 0
                     }
+                ],
+                "Chatter": {
+                    "Skitty_Random": {
+                        "Lines": [
+                            "Skit! Skitty skit!",
+                            "Mew mew mew?",
+                            "*Purr*",
+                            "Mew mew!",
+                            "Meeoww!",
+                            "Skitty skit?",
+                            "Meeaah!"
+                        ],
+                        //"Condition": "TRUE",
+                        //"Priority": 0
+                    },
+                },
+                "Motion": {
+                    "MotionClass": "Lerp",
+                    "DirectionMode": "DRUL",
+                    "HideDuringEvents": "{{Hide During Events}}",
+                    "FrameLength": 4,
+                    "Anchors": [ { "Mode": "Forage", "Range": 320 } ],
+                    "AnimClips": {
+                        
+                        "Idle.1": { "FrameStart": 16, "FrameLength": 2, "Interval": 300 },
+                        "Idle.2": { "FrameStart": 18, "FrameLength": 2, "Interval": 300 },
+                        "Idle.3": { "FrameStart": 20, "FrameLength": 2, "Interval": 300 },
+                        "Idle.4": { "FrameStart": 22, "FrameLength": 2, "Interval": 300 },
+
+                        "Swim.1": { "FrameStart": 28, "FrameLength": 2, "Interval": 300 },
+                        "Swim.2": { "FrameStart": 24, "FrameLength": 2, "Interval": 300 },
+                        "Swim.3": { "FrameStart": 30, "FrameLength": 2, "Interval": 300 },
+                        "Swim.4": { "FrameStart": 26, "FrameLength": 2, "Interval": 300 },
+                        "Howl": { "FrameStart": 32, "FrameLength": 9, "Interval": 200, "PauseMovement": true }
+                    },
+
+                    "Args": { "Min": 64, "Rate": 300, "MoveSync": true }
+                },
+                "Abilities": [
+                    [
+                        {
+                            "AbilityClass": "Chatter",
+                            "Proc": "Interact",
+                            "Args": { "ChatterPrefix": "Skitty" },
+                            "ProcSound": { "CueName": "{{ModID}}_SkittyCry" }
+                        },
+                        {
+                            "AbilityClass": "HarvestForage",
+                            "Proc": "Timer",
+                            "ProcTimer": 300,
+                            "ProcSound": { "CueName": "{{ModID}}_SkittyCry" },
+                            "Args": { "Range": 1 }
+                        }
+                    ]
                 ]
-            ]
         }
     }
 }

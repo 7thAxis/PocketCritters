@@ -8,9 +8,9 @@
             "Entries": {
                 "{{ModId}}_SkittyCompanion": {
                     "Id": "{{ModId}}_SkittyCompanion",
-                    "DisplayName": "{{i18n:SkittyCompanion.Display}}",
-                    "Description": "{{i18n:SkittyCompanion.Desc}}",
-                    "Texture": "Objects/CritterCapsules",
+                    "DisplayName": "Invalid",
+                    "Description": "Invalid",
+                    "Texture": "Objects/InvalidCapsule",
                     "SheetIndex": 0,
                     "DropsNaturally": false,
                     "CanBeReforged": false
@@ -24,7 +24,7 @@
                 "{{ModId}}_SkittyCapsule": {
                     "Name": "{{ModId}}_SkittyCapsule",
                     "DisplayName": "Skitty Capsule",
-                    "Description": "{{i18n:SkittyCompanion.Desc}}",
+                    "Description": "Equip as a ring, gain a skitty.",
                     "Type": "Ring",
                     "Category": -96,
                     "Price": 25,
@@ -36,7 +36,7 @@
                     "IsDrink": false,
                     "ContextTags": [ "color_pink", "ring_item", "trinket_item" ],
                     "Texture": "Objects/CritterCapsules",
-                    "SheetIndex": 1
+                    "SheetIndex": 0
                 }         
             }
         }
