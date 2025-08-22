@@ -1,0 +1,16 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "AdventureShop", "Items" ],
+            "Entries": {
+                "{{ModID}}_SkittyCapsule": {
+                    "Id": "{{ModID}}_SkittyCapsule",
+                    "ItemId": "(O){{ModID}}_SkittyCapsule",
+                    "Price": 1000
+                }
+            }
+        }
+    ]
+}

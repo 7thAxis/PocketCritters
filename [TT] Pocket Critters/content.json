@@ -38,7 +38,7 @@
         {
             "Logname": "Pocket Critter File Includes",
             "Action": "Include",
-            "FromFile": "Data/Graphics.json, Data/TriggerActions.Json, Data/Items.json, Data/Audio.json, Data/Critters/Skitty.json"
+            "FromFile": "Data/Graphics.json, Data/TriggerActions.Json, Data/Items.json, Data/Audio.json, Data/Shops.json, Data/Critters/Skitty.json"
         }
     ]
 }
