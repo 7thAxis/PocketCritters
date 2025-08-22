@@ -1,0 +1,18 @@
+{
+    "Changes": [
+        {
+            "LogName": "Skitty SFX",
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "{{ModID}}_SkittyCry": {
+                    "ID": "{{ModID}}_SkittyCry",
+                    "Category": "Sound",
+                    "FilePaths": [ "{{AbsoluteFilePath: Assets/Audio/SkittyCry.ogg}}" ],
+                    "StreamedVorbis": false,
+                    "Looped": false
+                }
+            }
+        }
+    ]
+}

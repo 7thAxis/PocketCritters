@@ -1,0 +1,13 @@
+{
+	"Name": "Pocket Critters",
+	"Author": "7thAxis",
+	"Version": "1.0.0-Alpha",
+	"Description": "A Pokémon companion mod.",
+	"UniqueID": "7A.PC",
+	"UpdateKeys": ["Nexus:18664"],
+	"ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" },
+	"Dependencies": [
+		{ "UniqueID": "mushymato.TrinketTinker", "IsRequired": true },
+		{ "UniqueID": "Spiderbuttons.BETAS", "IsRequired": true }
+]
+}

@@ -1,0 +1,44 @@
+{
+    "Format": "2.0.0",
+
+    "ConfigSchema": {
+        "Mystery Dungeon Scarf": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "AllowBlank": false,
+            "AllowMultiple": false,
+            "Description": "Adds scarves from Mystery Dungeon: Rescue Team DX to applicable critters.",
+            "Section": "Graphics"
+        },
+        "Hide During Events": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "AllowBlank": false,
+            "AllowMultiple": false,
+            "Description": "Adds scarves from Mystery Dungeon: Rescue Team DX to applicable critters.",
+            "Section": "Graphics"
+        },
+        "Force Shiny": {
+            "AllowValues": "Normal, Shiny",
+            "Default": "Normal",
+            "AllowBlank": false,
+            "AllowMultiple": false,
+            "Description": "Sets if your critters are shiny or not. Debug Setting.",
+            "Section": "Graphics"
+        },
+        "Critter Nickname": {
+            "Default": "Buddy",
+            "AllowBlank": true,
+            "AllowMultiple": false,
+            "Description": "Your follower's nickname.",
+            "Section": "Personalization"
+        }
+    },
+    "Changes": [
+        {
+            "Logname": "Pocket Critter File Includes",
+            "Action": "Include",
+            "FromFile": "Data/Graphics.json, Data/TriggerActions.Json, Data/Items.json, Data/Audio.json, Data/Critters/Skitty.json"
+        }
+    ]
+}

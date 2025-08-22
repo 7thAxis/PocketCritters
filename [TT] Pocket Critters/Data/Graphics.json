@@ -1,0 +1,17 @@
+{
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Characters/7A.Skitty_Normal, Characters/7A.Skitty_Shiny, Portraits/7A.Skitty_Normal, Portraits/7A.Skitty_Shiny, Objects/CritterCapsules",
+            "FromFile": "Assets/{{TargetPathOnly}}/{{TargetWithoutPath}}.png"
+        },
+		{
+			"Logname": "Scarf Overlays",
+			"Action": "EditImage",
+			"PatchMode": "Overlay",
+			"Target": "Characters/7A.Skitty_Normal, Characters/7A.Skitty_Shiny, Portraits/7A.Skitty_Normal, Portraits/7A.Skitty_Shiny",
+            "FromFile": "Assets/{{TargetPathOnly}}/7A.Skitty_Scarf.png",
+            "When": { "Mystery Dungeon Scarf": true }
+		}        
+    ]
+}

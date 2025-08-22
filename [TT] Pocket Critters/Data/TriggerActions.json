@@ -1,0 +1,24 @@
+{
+    "Changes": [
+    {
+        "Action": "EditData",
+        "Target": "Data/TriggerActions",
+        "Entries": {
+            "{{ModID}}_SkittyEquip": {
+                "Id": "{{ModID}}_SkittyEquip",
+                "MarkActionApplied": false,
+                "Trigger": "Spiderbuttons.BETAS_ItemEquipped",
+                "Condition": "ITEM_ID Target (O){{ModID}}_SkittyCapsule, mushymato.TrinketTinker_ENABLED_TRINKET_COUNT {{ModID}}_SkittyCompanion Current <1",
+                "Actions": [ "mushymato.TrinketTinker_EquipHiddenTrinket {{ModId}}_SkittyCompanion 4 0 -1" ]
+            },
+            "{{ModID}}_SkittyUnequip": {
+                "Id": "{{ModID}}_SkittyUnequip",
+                "MarkActionApplied": false,
+                "Trigger": "Spiderbuttons.BETAS_ItemUnequipped",
+                "Condition": "ITEM_ID Target (O){{ModID}}_SkittyCapsule",
+                "Actions": [ "mushymato.TrinketTinker_UnequipHiddenTrinket {{ModID}}_SkittyCompanion" ]
+            }
+        }
+    }
+    ]
+}
